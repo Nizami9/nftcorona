@@ -66,18 +66,18 @@ body {
 }
 
 .section1 {
-    height: 1000px;
-    background-image: url(img/sec1.png);
-    background-position: 200px -70px;
-    background-attachment: fixed;
-    background-size: 70%;
     opacity: 0.6;
-    backface-visibility: hidden;
+    display: flex;
+    background-image: url(img/sec1.png);
+    background-position: 200px 830px;
+    background-size: 60%;
+    background-attachment: fixed;
 }
 
+
 .sec1text {
-    margin: 0px;
-    padding: 0px;
+display: flexbox;
+flex-wrap: wrap;
 }
 
 h1::before {  
