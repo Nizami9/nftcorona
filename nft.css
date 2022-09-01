@@ -67,7 +67,7 @@ body {
 
 .section1 {
     height: 1000px;
-    background-image: url(/img/sec1.png);
+    background-image: url(img/sec1.png);
     background-position: 200px -70px;
     background-attachment: fixed;
     background-size: 70%;
@@ -125,7 +125,7 @@ h1::before {
 
 .section2 {
     height: 3730px;
-    background-image: url(/img/sec2.png);
+    background-image: url(img/sec2.png);
     opacity: 0.9;
     backface-visibility: hidden;
 }
@@ -262,7 +262,6 @@ h1::before {
         color: azure;
         text-align: center;
         margin: 0 auto;
-        line-height: ;
         background-color: rgba(5, 5, 5, 0.5);
     }
 
